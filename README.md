@@ -13,7 +13,7 @@ This bot is highly inspired of nicolaspiet's github repo, **[jklm-word-bot]([url
  - Step 5: Once installed, you're good to go!
 
 # Usage
- - Step 1: Run the code using a code editor.
+ - Step 1: Run **word-bot.py** using a code editor or simply the same terminal earlier and run 'python word-bot.py'.
  - Step 2: Go to the JKLM game as soon as it starts. Place your cursor over the two letter text inside the bomb, and press **'Ctrl + F8'**. 
  - Step 3: When it is now your turn, press **'Ctrl + F9'**. 
 
