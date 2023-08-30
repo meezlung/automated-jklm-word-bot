@@ -15,14 +15,14 @@ This bot is highly inspired of nicolaspiet's github repo, **[jklm-word-bot]([url
 # Usage
  - Step 1: Run **word-bot.py** using a code editor or simply the same terminal earlier and run 'python word-bot.py'.
  - Step 2: Go to the JKLM game as soon as it starts. Place your cursor over the two letter text inside the bomb, and press **'Ctrl + F8'**. 
- - Step 3: When it is now your turn, press **'Ctrl + F9'**. 
+ - Step 3: Hover your mouse over the text box, and press **'Ctrl + F9'**.
+ - Step 4: When it is your turn, sit back, relax, and press **'Ctrl + F11**.
+ - Step 5: Enjoy!
 
 # Functionality
- - 'Ctrl + F8': This will copy your current mouse cursor position, so make sure it is accurate.
- - 'Ctrl + F9': This will immediately hover your mouse cursor to your previously recorded mouse position, and prompts the code to output the text automatically in the typing box by using **pyperclip** and **keyboard.write** with **different delays** in typing speed. Hence, it is coded to act like a human.
+ - **'Ctrl + F8'**: This will copy your current mouse cursor position, so make sure it is accurately placed.
+ - **'Ctrl + F9'**: This will copy your current mouse cursor position of the text box, so make sure it is accurately placed.
+ - **'Ctrl + F11'**: This will immediately hover your mouse cursor to your previously recorded mouse position, and prompts the code to output the text automatically in the typing box by using **pyperclip** and **keyboard.write** with **different delays** in human-like typing speed.
 
 # Walkthrough
-![automated-jklm-word-bot](https://github.com/meezlung/automated-jklm-word-bot/assets/65329581/fc13df6c-b9cb-4982-8a18-fe37302687c0)
-
-
-
+![automated-jklm-word-bot](https://github.com/meezlung/automated-jklm-word-bot/assets/65329581/00c25931-9069-4ecb-a641-3be3f07e7b17)
