@@ -22,7 +22,7 @@ This bot is highly inspired of nicolaspiet's github repo, **[jklm-word-bot]([url
  - 'Ctrl + F9': This will immediately hover your mouse cursor to your previously recorded mouse position, and prompts the code to output the text automatically in the typing box by using **pyperclip** and **keyboard.write** with **different delays** in typing speed. Hence, it is coded to act like a human.
 
 # Walkthrough
-![automated-jklm-word-bot](https://github.com/meezlung/automated-jklm-word-bot/assets/65329581/7219aa11-6540-4bec-9cb7-11f492d09df3)
+![automated-jklm-word-bot](https://github.com/meezlung/automated-jklm-word-bot/assets/65329581/fc13df6c-b9cb-4982-8a18-fe37302687c0)
 
 
 
