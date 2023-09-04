@@ -16,11 +16,13 @@ class Wordfinder():
 
     def record_mouse_position(self, key): # Function that listen for your key ('ctrl + f8') until it is pressed
         keyboard.wait(key)
+        print('Bomb text position recorded.')
         current_position = self.mouse.position
         return current_position
     
     def record_text_box_position(self, key): # Function that listens for your key ('ctrl + f9) until it is pressed
         keyboard.wait(key)
+        print('Text box position recorded.')
         text_box_position = self.mouse.position
         return text_box_position
 
@@ -94,9 +96,8 @@ while True:
     prefix = wordfinder.double_click_copy_paste_to_text_box()
 
     # Put the file location of wordlists.txt here 
-    file_name = r"C:\Users\admin\OneDrive\Documents\Development\Random\jklm-word-bot\wordlist.txt"
+    file_name = r"wordlist.txt"
 
     matching_word = wordfinder.find_matching_words(file_name, prefix)
     
     wordfinder.write_the_word(matching_word, recorded_text_box_position)
-
