@@ -11,11 +11,13 @@ This will be constantly updated. I'm planning on adding a web UI version for thi
 # Installation
  - Step 1: Download the zip of this file and then extract.
  - Step 2: Once extracted, copy the file location of the file **(e.g. C:/Users/admin/Downloads/jklm-word-bot)**
- - Step 3: Open up the terminal, and then change your directory to that file location. For example, type 
+ - Step 3: Open up the terminal, and then change your directory to that file location. For example, type
+   
    ```
    cd C:/Users/admin/Downloads/jklm-word-bot
    ```
  - Step 4: Run the code below. Make sure you have python installed before running this.
+   
    ```
    pip install -r requirements.txt
    ```
@@ -23,6 +25,7 @@ This will be constantly updated. I'm planning on adding a web UI version for thi
 
 # Usage
  - Step 1: Run **word-bot.py** using a code editor or simply the same terminal earlier and run the code below.
+   
    ```
    python run word-bot.py
    ```
