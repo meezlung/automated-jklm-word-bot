@@ -11,15 +11,21 @@ This will be constantly updated. I'm planning on adding a web UI version for thi
 # Installation
  - Step 1: Download the zip of this file and then extract.
  - Step 2: Once extracted, copy the file location of the file **(e.g. C:/Users/admin/Downloads/jklm-word-bot)**
- - Step 3: Open up the terminal, and then change your directory to that file location. For example, type **
- - ```
-   "cd C:/Users/admin/Downloads/jklm-word-bot"**
+ - Step 3: Open up the terminal, and then change your directory to that file location. For example, type 
    ```
- - Step 4: Run **"pip install -r requirements.txt"**. Make sure you have python installed before running this.
+   cd C:/Users/admin/Downloads/jklm-word-bot
+   ```
+ - Step 4: Run the code below. Make sure you have python installed before running this.
+   ```
+   pip install -r requirements.txt
+   ```
  - Step 5: Once installed, you're good to go!
 
 # Usage
- - Step 1: Run **word-bot.py** using a code editor or simply the same terminal earlier and run 'python word-bot.py'.
+ - Step 1: Run **word-bot.py** using a code editor or simply the same terminal earlier and run the code below.
+   ```
+   python run word-bot.py
+   ```
  - Step 2: Go to the JKLM game as soon as it starts. Place your cursor over the two letter text inside the bomb, and press **'Ctrl + F8'**. 
  - Step 3: Hover your mouse over the text box, and press **'Ctrl + F9'**.
  - Step 4: When it is your turn, sit back, relax, and press **'Ctrl + F11**.
