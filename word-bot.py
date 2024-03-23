@@ -89,15 +89,15 @@ if __name__ == "__main__":
     recorded_text_position = wordfinder.record_mouse_position('ctrl+f8')
     recorded_text_box_position = wordfinder.record_text_box_position('ctrl+f9')
 
-while True:
-    wordfinder.listen_for_ctrl_f11("ctrl+f11", recorded_text_position)
-    
-    # Signals the copypaste function   
-    prefix = wordfinder.double_click_copy_paste_to_text_box()
+    while True:
+        wordfinder.listen_for_ctrl_f11("ctrl+f11", recorded_text_position)
+        
+        # Signals the copypaste function   
+        prefix = wordfinder.double_click_copy_paste_to_text_box()
 
-    # Put the file location of wordlists.txt here 
-    file_name = r"wordlist.txt"
+        # Put the file location of wordlists.txt here 
+        file_name = r"wordlist.txt"
 
-    matching_word = wordfinder.find_matching_words(file_name, prefix)
-    
-    wordfinder.write_the_word(matching_word, recorded_text_box_position)
+        matching_word = wordfinder.find_matching_words(file_name, prefix)
+        
+        wordfinder.write_the_word(matching_word, recorded_text_box_position)
