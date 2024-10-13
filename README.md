@@ -1,7 +1,5 @@
 This bot is highly inspired of nicolaspiet's github repo, **[jklm-word-bot](https://github.com/nicolaspiet/jklm-word-bot.git)**, but slightly optimized. I found out that their code is slight buggy in terms of getting the mouse position, and word output is apparently typing random words. Hence, it seems to be not working. I optimized that using my own OOP programming.
 
-This will be constantly updated. I'm planning on adding a web UI version for this code. I'm also planning on adding realtime image processing.
-
 # Requirements
  - python
  - pynput
